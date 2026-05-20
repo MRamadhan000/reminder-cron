@@ -20,7 +20,7 @@ export class AppService {
         from: 'onboarding@resend.dev',
         to: 'mcahya830@gmail.com',
         subject: 'Pengingat Absen',
-        html: '<p>Jangan lupa absen yah</p>',
+        html: '<p>Jangan lupa absen yahsd</p>',
       });
       return result;
     } catch (error) {
