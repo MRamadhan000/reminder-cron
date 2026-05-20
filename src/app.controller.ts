@@ -10,6 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
+  @Get('send-reminder')
   @Post('send-reminder')
   async sendReminder(): Promise<any> {
     return await this.appService.sendReminderEmail();
