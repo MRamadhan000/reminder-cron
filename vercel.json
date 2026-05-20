@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/send-reminder",
-      "schedule": "3 12 * * 3"
+      "schedule": "* * * * *"
     }
   ]
 }
